@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+      <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <!--Si quiero que sea fijo arriba debe decir fixed en vez de fluid, pero debo resolver el margin para lograrlo-->
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top">
+                  <span class="sr-only">Show / Hide Menu</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand">The Classroom (logo)</a>
+              </div>
+              <!--Menu starts-->
+              <div class="collapse navbar-collapse" id="navbar-top">
+                <ul class="nav navbar-nav">
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                      <span class="glyphicon glyphicon-th-list"></span>
+                      Class types <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                  <li><a href="#">Regular English</a></li>
+                  <li><a href="#">English bussiness class</a></li>
+                  <li><a href="#">Resume, CV and Interviews</a></li>
+                  <li><a href="#">English for kids</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#"><span class="glyphicon glyphicon-time"></span> Scheduler</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> Billing</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Contact us</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                  <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+      </header><br><br><br><br>
+
+          <!--Carousel part-->
+
+  <style>
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 70%;
+        margin: auto;
+      }
+  </style>
+
+  <div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <a href="#"><img src="pictures/regular english.jpg" alt="Regular English" width="460" height="345"></a>
+      </div>
+
+      <div class="item">
+        <a href="#"><img src="pictures/english bussiness class.jpg" alt="English bussiness class" width="460" height="345"></a>
+      </div>
+
+      <div class="item">
+        <a href="#"><img src="pictures/resume cv and interviews.jpg" alt="Resume, CV and Interviews" width="460" height="345"></a>
+      </div>
+
+      <div class="item">
+        <a href="#"><img src="pictures/english for kids.jpg" alt="English for kids" width="460" height="345"></a>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div><br><br><br>
+
+    <div class="jumbotron">
+      <h1>Welcome to draft</h1><br>
+      <p>The classroom webpage is under construction.</p>
+      <p>This website will help you out to get English classes adapted to your needs.</p>
+    </div>
+
+    <div class="jumbotron">
+      <h2>New improvements coming soon...</h2><br>
+      <p>You may find new stuff in a while.</p>
+    </div>
+
+    <!--Footer part-->
+    <br><footer class="navbar-inverse navbar-fixed-bottom">
+      <div class="container">
+        <h6 class="text-muted">2016 / Lety Munguia</h6>
+      </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
